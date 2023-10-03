@@ -1,0 +1,34 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 5vw;
+}
+
+.logo {
+  margin: 10px;
+  display: flex;
+}
+
+.logoImg {
+  mix-blend-mode: multiply;
+  filter: contrast(2);
+}
+
+.Title {
+  margin-top: 10px;
+  transform: translateX(-7%);
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .Title {
+    width: 100%;
+    transform: translateX(0);
+  }
+}
